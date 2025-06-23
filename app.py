@@ -5,7 +5,7 @@ import plotly.express as px
 # Load data
 df = pd.read_csv("malaria_age_cleaned.csv")
 
-st.set_page_config(layout="wide")
+st.set_page_config(layout="wide", initial_sidebar_state="expanded")
 st.title("🌍 Global Malaria Mortality Dashboard")
 
 # -------- Sidebar Filters --------
