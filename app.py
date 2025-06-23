@@ -3,7 +3,7 @@ import pandas as pd
 import plotly.express as px
 
 # Load data
-df = pd.read_csv("healthcare-proj/malaria_age_cleaned.csv")
+df = pd.read_csv("malaria_age_cleaned.csv")
 
 st.set_page_config(layout="wide")
 st.title("🌍 Global Malaria Mortality Dashboard")
